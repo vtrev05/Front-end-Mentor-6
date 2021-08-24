@@ -1,0 +1,210 @@
+*{
+    background-color: hsl(210, 46%, 95%);
+    box-sizing: border-box;
+}
+.card{
+    display: flex;
+    margin: 15% auto;
+    max-width: 50%;
+    position: relative;
+    left: 66px;
+}
+.image{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 50%;
+    height: 289.7px;
+}
+.rightPartCard {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 50%;
+    height: 289.7px;
+    text-align: left;
+    background-color: white;
+}
+.title, .paragraph{    
+    position: relative;
+    top: 14px;
+    left: 37px;    
+    max-width: 80%;
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif; 
+}
+.title{
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    font-size: 20px;
+}
+.paragraph {
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.6;
+}
+.infoBar {
+    position: relative;
+    top: 28px;
+    left: 37px;
+    width: 100%;
+    background-color: transparent;
+}
+.avatar{
+    border-radius: 50%;
+    width: 40px;
+}
+.name{
+    color: hsl(217, 19%, 35%);
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    top: -24px;
+    left: 13px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+}
+.date {
+    display: inline-block;
+    background-color: transparent;
+    color: hsl(212, 23%, 69%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    position: relative;
+    top: -1px;
+    left: -105px;
+}
+.iconShare{
+    border: 8px solid hsl(210, 46%, 95%);
+    border-radius: 100%;
+    position: relative;
+    top: -4px;
+    right: -70px;
+    cursor: pointer;
+}
+
+/* JAVASCRIPT */
+
+.iconShare:hover {
+    border: 8px solid hsl(214, 17%, 51%);
+  }
+
+.socialMediaIcons {
+    display: inline;
+    background-color: transparent;
+}
+
+.iconsStyles {
+    display: inline-block;
+    width: 220px;
+    height: 50px;
+    background-color: hsl(217, 19%, 35%);
+    position: relative;
+    bottom: 120px;
+    left: 257px;
+    z-index: 100;
+    border-radius: 6px;
+}
+
+.share{
+    display: inline-block;
+    font-size: 12px;
+    color: hsl(212, 23%, 69%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    background-color: hsl(217, 19%, 35%);
+    position: relative;
+    left: 30px;
+    top: 10px
+}
+.facebook, .twitter, .pinterest{
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+}
+.facebook{
+    position: relative;
+    left: 45px;
+    top: 15px;
+}
+.twitter{
+    position: relative;
+    left: 55px;
+    top: 15px;
+}
+.pinterest{
+    position: relative;
+    left: 65px;
+    top: 15px;
+}
+
+/* MOBILE DESIGN */
+
+@media (max-width: 1742px) {
+    *{
+        max-width: 320px;
+    }
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        max-width: 95%;
+        left: 20px;
+        margin: 15% auto;
+    }
+    .image{
+        max-width: 100%;
+        height: 200px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .rightPartCard {
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+        max-width: 100%;
+        height: 389.7px;
+    }
+    .infoBar {
+        top: 38px;
+    }
+    .iconShare{
+        top: -3px;
+        right: 40px;
+    }
+    
+    /* JAVASCRIPT */
+    
+    .iconsStyles {
+        width: 100%;
+        height: 80px;
+        bottom: 31px;
+        left: 0px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .share{
+        left: 37px;
+        top: 22px
+    }
+    .facebook{
+        left: 55px;
+        top: 26px;
+    }
+    .twitter{
+        left: 65px;
+        top: 26px;
+    }
+    .pinterest{
+        left: 75px;
+        top: 26px;
+    }
+    .newIconShare{
+        border: 6px solid hsl(210, 46%, 95%);
+        border-radius: 100%;
+        position: relative;
+        top: 30px;
+        right: -115px;
+    }
+}
