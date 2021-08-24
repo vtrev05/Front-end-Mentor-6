@@ -1,6 +1,6 @@
 ### Screenshot
 
-![](./assetss/images/screenshot.png)
+![](./assets/images/screenshot.png)
 
 ### Links
 
