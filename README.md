@@ -4,8 +4,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [ https://vtrev05.github.io/Front-end-Mentor-6/]()
+- Live Site URL: [ https://vtrev05.github.io/Front-end-Mentor-6/]()
 
 ## My process
 
